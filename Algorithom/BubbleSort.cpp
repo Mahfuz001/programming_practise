@@ -21,15 +21,15 @@ int main(int argc, char const *argv[]){
 
     int arr[] = {5,7,2,3,1};
     int size = sizeof(arr)/sizeof(arr[0]);
-    // BubbleSort(arr,size);
+    BubbleSort(arr,size);
 
-    // for(auto a:arr){
-    //     cout << a << " ";
-    // }
-    // cout << endl;
-    int a=5,b=3;
-    int* p = &a;
-    cout << *p << " "<<b<<endl;
+    for(auto a:arr){
+        cout << a << " ";
+    }
+    cout << endl;
+    //int a=5,b=3;
+    //int* p = &a;
+    //cout << *p << " "<<b<<endl;
 
     return 0;
 }
