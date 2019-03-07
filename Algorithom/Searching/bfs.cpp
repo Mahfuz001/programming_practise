@@ -65,6 +65,7 @@ void bfs(int sources){
         
         for(int i=0;i<edges[u].size();i++){
             int v = edges[u][i];
+            //cout<<v;br;
             if(color[v] == 0){
                 color[v] = 1;
                 dis[v] = dis[u]+1;
